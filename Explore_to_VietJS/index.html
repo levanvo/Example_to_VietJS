@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./info_vo.js"></script>
+</head>
+
+<body class="w-[1000px] bg-black text-white mx-auto text-center mt-10">
+  <h2>Xem tên ngay: <span class="text-red-500 font-medium" id="volevan"></span></h2>
+  <h2>Tính số nhân: <span class="text-red-500 font-medium" id="sonhan"></span></h2>
+  <button class="bg-sky-500 text-white w-[500px] font-bold hover:bg-lime-500" onclick="ok()">Click để show thông tin về Võ (nút hỏng cần khắc phục)</button>
+  <h2 class="text-xl">Thông tin của Võ: <span class="text-sm text-pink-500" id="info_vo"></span></h2>
+  <script type="module" src="./vo.js"></script>
+</body>
+
+</html>
